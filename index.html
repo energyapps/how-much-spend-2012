@@ -2,6 +2,56 @@
 layout: default
 ---
 
+<div id="fallback">
+  <img src="https://energy.gov/sites/prod/files/fallback.jpg">
+</div>
 <div id="master_container">
-	<div id="map"></div>
+  <div id="map">
+    <div id="statecont">
+        <div id="statecont_inner">
+            <div id="sci">
+                <h1 id="statename">U.S.A.</h1>
+            </div>
+        </div>
+    </div>
+    <div class="leaflet-control-container">
+      <div class="leaflet-top leaflet-left">
+        <div style="top: 65px;" class="leaflet-control-zoom leaflet-bar leaflet-control">
+          <span id="usa" href=""><img src="https://energy.gov/sites/prod/files/USRetina2.png"></span>
+          <span id="hawaii" href=""><img src="https://energy.gov/sites/prod/files/HawaiiRetina2.png"></span>
+          <span id="alaska" href=""><img src="https://energy.gov/sites/prod/files/AlaskaRetina2.png"></span>
+        </div>
+      </div>  
+      <div id="click-here" class="leaflet-top leaflet-right">
+        <div id="click-inner" class="info leaflet-control">
+          <div id="click-double-inner">
+            <h4>Energy Expenditure per person</h4>
+            <p>Click on a state</p>
+          </div>            
+          <div id="statename2"></div>
+        </div>                  
+      </div>         
+    </div>
+  </div>
+  <div id="informz2">
+    <div id="informz3">
+      <div class="belowblock" id="m3a">
+        <p>Energy Expenditure</p>
+          <div class="linesss" id="lineboxhorz"></div>
+          <div class="linesss" id="lvert1"></div>
+          <div class="linesss lineboxhorz2"></div>
+        <h2 id="expend">$3724</h2>
+          <div class="linesss lineboxhorz2"></div>
+          <div class="linesss" id="lvert2" style="top: -1px;"></div>
+          <div class="linesss" id="lineboxhorz3"></div>
+        <p class="riii">per person in 2012</p>
+      </div>
+      <div id="line_legend">            
+        <p id="legend_name"></p>
+        <p> Transportation   <span style="color:#8BCC00; font-size: 9px; font-weight: bold; ">▀▀▀▀▀</span></p>
+        <p> Residential   <span style="color:#0000ff; font-size: 9px; font-weight: bold; ">▀▀▀▀▀</span></p>
+      </div>
+      <div class="belowblock" id="containerz" style="margin: 0 auto"></div>
+    </div>
+  </div>
 </div>
